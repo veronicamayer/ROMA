@@ -21,7 +21,7 @@
 
 span {
     color: white;
-    background-color: #333333;
+    background-color: #282528;
     padding: 5px 5px 0 5px;
 }
 
@@ -35,7 +35,7 @@ span {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 }
 
 /* Titelbereich */
@@ -156,7 +156,7 @@ h1 {
 
 .green h3 {
     color: #6bc1a3;
-    padding: 0 0 20vh 10vw;
+    padding: 0 0 25vh 10vw;
 }
 
 /* Text blau
@@ -166,7 +166,7 @@ Achtung, .text Klasse aus Abschnitt 'Text grün' wird zusätzlich genutzt
 
 .bluetext {
     color: #7eb8e1;
-    padding: 0 0 15vh 40vw;
+    padding: 0 0 20vh 40vw;
     width: 90vw;
 }
 

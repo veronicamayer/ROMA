@@ -26,6 +26,7 @@ span {
 }
 
 /* section mit parallax effekt */
+
 .parallaxbg {
     min-height: 100vh;
     width: 100vw;
@@ -37,7 +38,7 @@ span {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
 }
 
-/* title page */
+/* Titelbereich */
 
 .titlepage {
     display: flex;
@@ -90,8 +91,7 @@ h1 {
     font-size: 6rem;
 }
 
-
-/* text green*/
+/* Text grün*/
 
 .text p {
     font-family: Santio;
@@ -105,13 +105,7 @@ h1 {
     width: 55vw;
 }
 
-.bluetext {
-    color: #7eb8e1;
-    padding: 0 0 15vh 40vw;
-    width: 90vw;
-}
-
-/* numbers */
+/* Zahlen */
 
 .numbers img {
     height: 20vh;
@@ -127,10 +121,9 @@ h1 {
 .numbers h3 {
     font-family: Santio;
     font-size: 2rem;
-
 }
 
-/* numbers yellow */
+/* Zahlen gelb */
 
 .yellow h2 {
     color: #e7bc0e;
@@ -142,7 +135,7 @@ h1 {
     padding: 0 0 20vh 10vw;
 }
 
-/* numbers purple */
+/* Zahlen lila */
 
 .purple h2 {
     color: #cb91b6;
@@ -154,7 +147,7 @@ h1 {
     margin: 10vh 0 3vh 10vw;
 }
 
-/* numbers green */
+/* Zahlen grün */
 
 .green h2 {
     color: #6bc1a3;
@@ -166,12 +159,18 @@ h1 {
     padding: 0 0 20vh 10vw;
 }
 
-/* imgbg */
+/* Text blau
+-------------
+Achtung, .text Klasse aus Abschnitt 'Text grün' wird zusätzlich genutzt
+------------- */
 
-.imgbg {
-    display: flex;
-    align-items: flex-end;
+.bluetext {
+    color: #7eb8e1;
+    padding: 0 0 15vh 40vw;
+    width: 90vw;
 }
+
+/* Section mit den überlappenden Fotos am Strand  */
 
 .imgbg img {
     height: 130vh;
@@ -182,9 +181,10 @@ h1 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    vertical-align: bottom;
 }
 
-/* blackbg */
+/* Section am Ende mit schwarzem Hintergrund */
 
 .blackbg { 
     background-color: black;
@@ -228,4 +228,3 @@ h1 {
 .roma:hover {
     text-decoration: underline;
 }
-

@@ -102,7 +102,7 @@ h1 {
 .greentext {
     color: #6bc1a3;
     padding: 30vh 0 30vh 20vw;
-    width: 45vw;
+    width: 55vw;
 }
 
 .bluetext {
@@ -168,6 +168,11 @@ h1 {
 
 /* imgbg */
 
+.imgbg {
+    display: flex;
+    align-items: flex-end;
+}
+
 .imgbg img {
     height: 130vh;
     width: 100vw;
@@ -209,7 +214,7 @@ h1 {
 }
 
 .blackbg p {
-    padding: 20vh 0 3vh 0;
+    padding: 25vh 0 3vh 0;
     color: white;
     font-family: Roboto;
     text-align: center;

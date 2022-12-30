@@ -19,12 +19,6 @@
     box-sizing: border-box;
 }
 
-span {
-    color: white;
-    background-color: #282528;
-    padding: 5px 5px 0 5px;
-}
-
 /* section mit parallax effekt */
 
 .parallaxbg {
@@ -83,7 +77,7 @@ h1 {
     font-size: 3rem;
 }
 
-.arrow::after {
+.titlepage p::after {
     content: "\003c";
     display: inline-block;
     transform: rotate(270deg);
@@ -97,6 +91,12 @@ h1 {
     font-family: Santio;
     font-size: 2rem;
     line-height: 3rem;
+}
+
+span {
+    color: white;
+    background-color: #282528;
+    padding: 5px 5px 0 5px;
 }
 
 .greentext {
@@ -161,7 +161,7 @@ h1 {
 
 /* Text blau
 -------------
-Achtung, .text Klasse aus Abschnitt 'Text grün' wird zusätzlich genutzt
+Achtung, .text Klasse und span aus Abschnitt 'Text grün' wird zusätzlich genutzt
 ------------- */
 
 .bluetext {
@@ -199,7 +199,7 @@ Achtung, .text Klasse aus Abschnitt 'Text grün' wird zusätzlich genutzt
     font-weight: 700;
 }
 
-.donate {
+.blackbgDonate {
     border: 1px solid white;
     color: white;
     text-decoration: none;
@@ -209,7 +209,7 @@ Achtung, .text Klasse aus Abschnitt 'Text grün' wird zusätzlich genutzt
     margin: 0 5vw;
 }
 
-.donate:hover {
+.blackbgDonate:hover {
     box-shadow: 6px 6px 0px 0px white;
 }
 
@@ -220,11 +220,11 @@ Achtung, .text Klasse aus Abschnitt 'Text grün' wird zusätzlich genutzt
     text-align: center;
 }
 
-.roma {
+.blackbgDonateRoma {
     color: #6bc1a3;
     text-decoration: none;
 }
 
-.roma:hover {
+.blackbgDonateRoma:hover {
     text-decoration: underline;
 }
